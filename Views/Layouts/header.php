@@ -4,16 +4,14 @@
         <div class="d-flex">
             <a href="<?= route(constant('HOME')) ?>" class="navbar-brand position-relative logo text-family-poppins"
                 style="background-image: url(<?= asset('img/static/logo-img.png') ?>);">
-                <span class="position-absolute end-0 bottom-0 fs-7 shadow-text-white"
-                    style="margin-bottom: -4px;">Translation</span>
-                <span class="fw-bolder shadow-text-white">Grand Buffalo</span>
+                <span class="fw-bolder shadow-text-white">[Name]</span>
             </a>
             <div class="d-flex m-0 align-items-center">
                 <span class="nav-item px-2">
-                    <a href="<?= route(constant('HOME')) ?>" class="text-decoration-none text-inherit">Inicio</a>
+                    <a href="#" class="text-decoration-none text-inherit">Link 1</a>
                 </span>
                 <span class="nav-item px-2">
-                    <a href="<?= route('novelas/listado') ?>" class="text-decoration-none text-inherit">Novelas</a>
+                    <a href="#" class="text-decoration-none text-inherit">Link 2</a>
                 </span>
             </div>
         </div>
@@ -34,12 +32,12 @@
                             <a href="<?= route('dashboard') ?>" class="text-decoration-none dropdown-item">Dashboard</a>
                         </span>
                         <span>
-                            <a href="<?= route('logout') ?>" class="text-decoration-none dropdown-item text-red">Cerrar
-                                Sesion</a>
+                            <a href="<?= route('logout') ?>" class="text-decoration-none dropdown-item text-red">Log
+                                Out</a>
                         </span>
                         <?php } else { ?>
                         <span>
-                            <a href="<?= route('login') ?>" class="text-decoration-none dropdown-item">Acceder</a>
+                            <a href="<?= route('login') ?>" class="text-decoration-none dropdown-item">Log In</a>
                         </span>
                         <?php } ?>
                     </div>

@@ -1,12 +1,12 @@
 <div class="bg-white shadow-c border">
     <div class="container py-2">
         <?php if (Route::getCurrentRoute() != 'dashboard') { ?>
-        <div class="d-flex justify-content-between text-white fs-7 fw-bolder">
+        <div class="d-flex justify-content-between text-white fs-6 fw-bolder">
             <div class="text-dark text-align-start">
-                <?= date('Y') ?> &copy; GrandBuffalo Translation.<br>Derechos reservados
+                <?= date('Y') ?> &copy; [Title].
             </div>
             <div class="text-dark text-align-end">
-                Powered by<br>HappyFox Devs
+                Powered by [Dev]
             </div>
         </div>
         <?php } ?>
