@@ -1,0 +1,149 @@
+/* tags */
+/* normal */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+.border-r {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.border-gray-400 {
+  border-color: #cbd5e0;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 0 5px 0px lightgrey;
+          box-shadow: 0 0 5px 0px lightgrey;
+}
+
+.min-screen-100 {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.min-w-screen {
+  min-width: 100vw;
+}
+
+.navbar-user-dropdown[data-bs-popper] {
+  top: 100%;
+  right: 0 !important;
+  left: unset;
+  margin-top: 0.125rem;
+}
+
+.password-validator {
+  right: 0;
+  top: 0;
+}
+
+.password-validator > div > div {
+  margin: 0 10px;
+  left: 100%;
+  bottom: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.password-validator > div > div::before {
+  content: " ";
+  position: absolute;
+  bottom: 10px;
+  right: 100%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.password-validator ul li {
+  list-style: none;
+}
+
+.pass-val-li {
+  font-size: 10pt;
+}
+
+.register-form .modal-content {
+  -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+  border: none;
+}
+
+.register-form .modal-content form button {
+  -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.text-gray-500 {
+  color: #a0aec0;
+}
+
+.index-100 {
+  z-index: 100;
+}
+
+/* id */
+#main {
+  padding: 1rem;
+}
+
+/* bg */
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+/* lh */
+.lh-20 {
+  line-height: 20px;
+}
+
+/* shadow */
+.shadow-c {
+  -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* text */
+.text-inherit {
+  color: inherit;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-cornflowerblue {
+  color: cornflowerblue;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-purple {
+  color: purple;
+}
+/*# sourceMappingURL=default.css.map */

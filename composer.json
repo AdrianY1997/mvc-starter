@@ -1,0 +1,19 @@
+{
+    "name": "happyfoxdevs/mvc-starter",
+    "description": "MVC System for free hostings",
+    "type": "project",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Happyfoxdevs\\MvcStarter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DarkMorita",
+            "email": "yasnoadriandatos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
