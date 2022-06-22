@@ -5,6 +5,9 @@ feel free to use
 
 This README is in progress
 
+## About
+This project is a MVC system for free hosting webs
+
 ## Installation
 
 just clone
