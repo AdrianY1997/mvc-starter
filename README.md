@@ -1,11 +1,11 @@
 # MVC Starter
 
-this repository is for my practices
-feel free to use
+this repository is for my practices, feel free to use
 
 This README is in progress
 
 ## About
+
 This project is a MVC system for free hosting webs
 
 ## Installation
@@ -20,13 +20,15 @@ cd mvc-starter
 ## Usage
 
 move the project to wampp www folder or xampp htdocs folder
-or
-start server with
 
-or start server with php
+or
+
+start server with php
 
 ```bash
-php -S 127.0.0.1:[PORT]
+php -S <host>:<port>
+
+php -S 127.0.0.1:8000
 ```
 
 ## Under Construction
