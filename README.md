@@ -11,7 +11,7 @@ just clone
 
 ```bash
 git clone https://github.com/AdrianY1997/mvc-starter.git
-cd mvc-own-framework
+cd mvc-starter
 ```
 
 ## Usage
